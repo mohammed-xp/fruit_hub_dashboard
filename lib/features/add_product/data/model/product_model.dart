@@ -19,6 +19,7 @@ class ProductModel {
   final num averageRating = 0;
   final num ratingCount = 0;
   final List<ReviewModel> reviews;
+  final num sellingCount;
 
   ProductModel({
     required this.name,
@@ -33,6 +34,7 @@ class ProductModel {
     required this.numOfCalories,
     required this.unitAmount,
     required this.reviews,
+    this.sellingCount = 0,
   });
 
   factory ProductModel.fromEntity(ProductEntity addProductInputEntity) {
@@ -67,6 +69,7 @@ class ProductModel {
       "unitAmount": unitAmount,
       "isOrganic": isOrganic,
       "reviews": reviews.map((ReviewModel r) => r.toJson()).toList(),
+      "sellingCount": sellingCount
     };
   }
 }
