@@ -1,0 +1,16 @@
+{
+    "addProduct": "اضافة منتج",
+    "thisFieldIsRequired": "هذا الحقل مطلوب",
+    "productName": "اسم المنتج",
+    "productDescription": "وصف المنتج",
+    "productPrice": "سعر المنتج",
+    "productCode": "رمز المنتج",
+    "isFeaturedItem": "هل هو منتج بارز؟",
+    "imageIsRequired": "الصورة مطلوبة",
+    "addProductSuccess": "تمت اضافة المنتج بنجاح",
+    "expiryDateInMonths": "تاريخ الصلاحية بالاشهر",
+    "numberOfCalories": "عدد الكالوريات",
+    "unitAmount": "كمية الوحدة",
+    "per": "لكل",
+    "isProductOrganic": "هل هو منتج زراعي؟"
+}

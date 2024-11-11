@@ -1,0 +1,16 @@
+{
+    "addProduct": "Add Product",
+    "thisFieldIsRequired": "This field is required",
+    "productName": "Product Name",
+    "productDescription": "Product Description",
+    "productPrice": "Product Price",
+    "productCode": "Product Code",
+    "isFeaturedItem": "Is Featured Item?",
+    "imageIsRequired": "Image is required",
+    "addProductSuccess": "Product added successfully",
+    "expiryDateInMonths": "Expiry Date in Months",
+    "numberOfCalories": "Number of Calories",
+    "unitAmount": "Unit Amount",
+    "per": "per",
+    "isProductOrganic": "Is Product Organic?"
+}

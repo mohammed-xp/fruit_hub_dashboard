@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:fruit_hub_dashboard/core/widgets/custom_button.dart';
+import 'package:fruit_hub_dashboard/features/add_product/presentation/views/add_product_view.dart';
+import 'package:fruit_hub_dashboard/generated/l10n.dart';
 
 class DashboardViewBody extends StatelessWidget {
   const DashboardViewBody({super.key});
@@ -12,8 +14,10 @@ class DashboardViewBody extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           CustomButton(
-            onPressed: () {},
-            text: 'Add Product',
+            onPressed: () {
+              Navigator.pushNamed(context, AddProductView.routeName);
+            },
+            text: S.of(context).addProduct,
           ),
         ],
       ),
