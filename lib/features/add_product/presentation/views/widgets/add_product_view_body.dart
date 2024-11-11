@@ -5,7 +5,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:fruit_hub_dashboard/core/helper_function/build_toast.dart';
 import 'package:fruit_hub_dashboard/core/widgets/custom_button.dart';
 import 'package:fruit_hub_dashboard/core/widgets/custom_text_form_field.dart';
-import 'package:fruit_hub_dashboard/features/add_product/domain/entities/add_product_input_entity.dart';
+import 'package:fruit_hub_dashboard/features/add_product/domain/entities/product_entity.dart';
 import 'package:fruit_hub_dashboard/features/add_product/managers/cubit/add_product_cubit.dart';
 import 'package:fruit_hub_dashboard/features/add_product/presentation/views/widgets/image_field.dart';
 import 'package:fruit_hub_dashboard/features/add_product/presentation/views/widgets/is_featured_check_box.dart';
@@ -140,7 +140,7 @@ class _AddProductViewBodyState extends State<AddProductViewBody> {
                     if (_formKey.currentState!.validate()) {
                       _formKey.currentState!.save();
 
-                      AddProductInputEntity input = AddProductInputEntity(
+                      ProductEntity input = ProductEntity(
                         name: name,
                         code: code,
                         description: description,

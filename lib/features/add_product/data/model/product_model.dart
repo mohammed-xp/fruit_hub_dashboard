@@ -1,10 +1,10 @@
 import 'dart:io';
 
 import 'package:fruit_hub_dashboard/features/add_product/data/model/review_model.dart';
-import 'package:fruit_hub_dashboard/features/add_product/domain/entities/add_product_input_entity.dart';
+import 'package:fruit_hub_dashboard/features/add_product/domain/entities/product_entity.dart';
 import 'package:fruit_hub_dashboard/features/add_product/domain/entities/review_entity.dart';
 
-class AddProductInputModel {
+class ProductModel {
   final String name;
   final String description;
   final num price;
@@ -20,7 +20,7 @@ class AddProductInputModel {
   final num ratingCount = 0;
   final List<ReviewModel> reviews;
 
-  AddProductInputModel({
+  ProductModel({
     required this.name,
     required this.description,
     required this.price,
@@ -35,9 +35,8 @@ class AddProductInputModel {
     required this.reviews,
   });
 
-  factory AddProductInputModel.fromEntity(
-      AddProductInputEntity addProductInputEntity) {
-    return AddProductInputModel(
+  factory ProductModel.fromEntity(ProductEntity addProductInputEntity) {
+    return ProductModel(
       name: addProductInputEntity.name,
       description: addProductInputEntity.description,
       price: addProductInputEntity.price,
