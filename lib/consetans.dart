@@ -1,0 +1,8 @@
+const String kSupabaseUrl = 'https://epylrnjcupjbjpjanbty.supabase.co';
+
+const String kSupabaseKey =
+    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVweWxybmpjdXBqYmpwamFuYnR5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzUyMDY5NTIsImV4cCI6MjA1MDc4Mjk1Mn0.c4v3M5vCpZFMBFTAbbZ5yCb9qW1VQTuxi_qBjq6Th-k';
+
+const String kSupabaseKeySecure =
+    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVweWxybmpjdXBqYmpwamFuYnR5Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTczNTIwNjk1MiwiZXhwIjoyMDUwNzgyOTUyfQ.lm8SOKnyRtoA-7TMxFqMYMCI1MhwdK9vtqSh9PFSdAM';
+const String kBucketImages = 'fruits_images';

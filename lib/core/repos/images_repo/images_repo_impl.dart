@@ -14,7 +14,7 @@ class ImagesRepoImpl implements ImagesRepo {
   @override
   Future<Either<Failure, String>> uploadImage({required File image}) async {
     try {
-      String url = await storageService.uploadImage(
+      String url = await storageService.uploadFile(
         image,
         BackendEndpoint.images,
       );

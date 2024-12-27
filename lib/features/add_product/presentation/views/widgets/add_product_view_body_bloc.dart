@@ -28,6 +28,7 @@ class AddProductViewBodyBloc extends StatelessWidget {
             message: S.of(context).addProductSuccess,
             state: ToastStates.SUCCESS,
           );
+          Navigator.pop(context);
         }
       },
       builder: (context, state) {
